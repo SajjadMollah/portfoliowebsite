@@ -1,14 +1,19 @@
 /* research cache busting*/
 body{
-    background-color: yellow;
+    background-color:#0D2328 ;
 }
+
 .top-bar-container{
+  position:-webkit-sticky;
+  position:sticky;
+  top:0;
     display: flex;
     flex-direction: row;
-    background-color: blue;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    background-color:White ;
+    width: 100%;
+    margin-left: none;
+    margin-right: none;
+    justify-content:space-between;
 
 
     
@@ -16,45 +21,171 @@ body{
 .top-bar-name-container{
     display: flex;
     justify-content: center;
-    background-color: orange;
-    width: 30%;
+    background-color:none;
     align-items: center;
     padding:10px;
+    margin-left:10%;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: lowercase;
+    font-style: none;
+    font-weight: 800;
+
     
 }
 .buttons{
-    background-color: brown;
+    background-color:none;
     display: flex;
     flex-direction: row;
-    
-    justify-content:space-evenly;
+    justify-content: space-evenly;
 
-    width: 70%;
-    padding: 10px;
+    padding: 5px;
+    margin-right: 10%;
+
+}
+.home{
+    background-color: none;
 }
 .about{
-    background-color: aqua;
+    background-color: none;
 
 }
 .experience{
-    background-color: green;
+    background-color: none;
 }
 .contact{
-    background-color: pink;
+    background-color:none;
 }
 .button{
-    padding:10px;
-    border-radius: 50px;
+    display:flex;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    border-radius: 5px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold ;
+    font-style:normal;
+    text-transform: lowercase;
+    cursor: pointer;
+    transition: padding 1s;
+}
+.button:hover{
+    padding-left:30px;
+    padding-right: 30px;
+    color: #6D9886;
 }
 .main-page{
     display: flex;
     background-color: red;
-    height: 300px;
-    width: 100%;
+    height: 100%;
+    width: 90%;
     flex-direction: column;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+    padding-top: 20px;
+    padding-bottom: 20%;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+
     
 }
-.main-about{
-    display: flex;
+.welcome{
+    font-size: 50px;
+    text-transform: lowercase;
+    font-family: "Ubuntu", sans-serif;
+    font-weight:700;
+    letter-spacing: 2px;
+    color: #D9CAB3;
+    margin-top: 10%;
+    margin-bottom: 30px;
+    letter-spacing: 10px;
 
 }
+.intro1{
+  font-size: 15px;
+  text-transform: lowercase;
+  font-family: "Ubuntu", sans-serif;
+  letter-spacing: 2px;
+  color: #D9CAB3;
+  letter-spacing: 10px;
+}
+.about-page{
+    display: flex;
+    flex-direction: column;
+    background-color:none;
+    width: 90%;
+    height: 100%;
+    align-items: center;
+    margin-inline: 5%;
+    margin-bottom: 100px;
+    padding-bottom: 300px;
+  
+
+}
+.about-page-header{
+  font-size: 40px;
+  text-transform: lowercase;
+  font-family: "Ubuntu", sans-serif;
+  font-weight:700;
+  letter-spacing: 2px;
+  color:black;
+  margin-top: 10%;
+  margin-bottom: 30px;
+  letter-spacing: 10px;
+  text-decoration: underline  #D9CAB3 solid 5px ;
+  color: #D9CAB3;
+  
+
+
+}
+.about-page-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+.about-page-desc{
+  width: 55%;
+  font-size: 20px;
+  text-transform: lowercase;
+  font-family: "Ubuntu", sans-serif;
+  font-weight:normal;
+  color:black;
+  margin-top: 5%;
+  margin-bottom: 30px;
+  letter-spacing:normal;
+  margin-right:none;
+  padding-right:200px;
+  color: #D9CAB3;
+
+}
+.skills-container{
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: darkslategrey;
+  border-radius: 10px;
+  margin-right:none;
+
+
+}
+.skill{
+  font-size: 20px;
+  text-transform: normal;
+  font-family: "Ubuntu", sans-serif;
+  font-weight:normal;
+  color:black;
+  background-color: grey;
+  border-radius: 5px;
+  padding:5px;
+  margin:auto;
+  margin-inline: 10px;
+  
+
+}
+
