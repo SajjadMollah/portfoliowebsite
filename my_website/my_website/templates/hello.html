@@ -19,10 +19,10 @@
             <div>Sajjad Mollah</div>
         </div>
         <div class="buttons">
-            <div class="home button"> Home</div>
+            <div onclick ="showHome()"class="home button"> Home</div>
             <div onclick ="showAbout()" class="about button">About</div>
-            <div class="experience button">Projects</div>
-            <div class="contact button">Contact</div>
+            <div onclick ="showProjects()"class="experience button">Projects</div>
+            <div onclick ="showContacts()"class="contact button">Contact</div>
             
         </div>
     </div>
@@ -36,11 +36,12 @@
 
     </div>
     <div class="image-bg"></div>
+    
 
 
     </div>
     <div class="about-page">
-        <div class="image-bg"></div>
+     
 
         <div class="about-page-header">About me</div>
 
@@ -49,14 +50,15 @@
                 <div class="about-page-desc"> 
                     <h3 class="hfont">A little about me</h3>
                     
+                    <p class="pfont">I am an aspiring software engineer who loves programming and problem solving.</p>
+                    <p class="pfont">Ex-Digital and Technical Solutions Degree Apprentice at Mondelez International, working on projects team to support and lead projects to improve business processes.</p>
+                    <p class="pfont">I also have passion for building custom for clients tailering to their needs or provide consultation for suitable computer for their needs.</p>
                     
-                    
-                    
-                    
-                    <p class="pfont">I am an ex degree apprentice from Mondelez International. I enjoy coding and developing apps. I have experience in the following programming languages
-                        Before you can begin to determine what the composition of a particular paragraph will be, you must first decide on an argument and a working thesis statement for your paper. What is the most important idea that you are trying to convey to your reader? The information in each paragraph must be related to that idea. In other words, your paragraphs should remind your reader that there is a recurrent relationship between your thesis and the information in each paragraph. A working thesis functions like a seed from which your paper, and your ideas, will grow. The whole process is an organic one—a natural progression from a seed to a full-blown paper where there are direct, familial relationships between all of the ideas in the paper.
 
-The decision about what to put into your paragraphs begins with the germination of a seed of ideas; this “germination process” is better known as brainstorming. There are many techniques for brainstorming; whichever one you choose, this stage of paragraph development cannot be skipped. Building paragraphs can be like building a skyscraper: there must be a well-planned foundation that supports what you are building. Any cracks, inconsistencies, or other corruptions of the foundation can cause your whole paper to crumble.
+                    
+                    
+                    
+                    
                     </p>
                 </div>
 
@@ -89,6 +91,7 @@ The decision about what to put into your paragraphs begins with the germination 
 
     </div>
 
+
     <div class="projects-page">
         <div class ="projects-header">
             Projects
@@ -101,7 +104,7 @@ The decision about what to put into your paragraphs begins with the germination 
             </div>
             <div class="projects">
                 <div>
-                    <img class="project-pic" src="https://github.com/SajjadMollah/portfoliowebsite/blob/main/my_website/my_website/static/images/logo%20edited.png">
+                    <img class="project-pic" src="static\images\PowerAutomate_scalable.svg">
                 </div>
             
                 <div class="porject-desc">
@@ -116,12 +119,12 @@ The decision about what to put into your paragraphs begins with the germination 
             </div>
             <div class="projects">
                 <div>
-                <img class="project-pic" src="C:\Users\JJad\OneDrive\Desktop\GitHub\portfoliowebsite\my_website\my_website\static\images\logo edited.png">
+                <img class="project-pic" src="static\images\PowerBI_scalable.svg">
             </div>
         
             <div class="porject-desc">
                 <h2 class="hfont">Power BI & Power Query</h3>
-                <p class="pfont"><strong>Automated a time-consuming warehouse task</strong> using <strong>Power BI and Power Query</strong>. The tool calculates <strong>staff attendance based on assigned shifts</strong>, replacing the previous manual process that took 4 to 6 hours weekly..</p>
+                <p class="pfont"><strong>Automated a time-consuming warehouse task</strong> using <strong>Power BI and Power Query</strong>. The tool calculates <strong>staff attendance based on assigned shifts</strong>, replacing the previous manual process that took 4 to 6 hours weekly.</p>
             </div>
 
 
@@ -130,7 +133,7 @@ The decision about what to put into your paragraphs begins with the germination 
             </div>
             <div class="projects">
                 <div>
-                    <img class="project-pic" src="C:\Users\JJad\OneDrive\Desktop\GitHub\portfoliowebsite\my_website\my_website\static\images\logo edited.png">
+                    <img class="project-pic" src="static\images\leetcode.svg">
                 </div>
             
                 <div class="porject-desc">
@@ -158,7 +161,26 @@ The decision about what to put into your paragraphs begins with the germination 
 
     </div>
     <div class="contacts-page">
-        <div class="contacts-header">Contacts</div>
+        <div class="contacts-header">Contact Me</div>
+        <div class ="contact-container">
+            <form class="form-style" action="">
+                <label class="labels" for="fullname">Full Name</label>
+                <input class="input-type" type="text" id="fullname" name="fulltname" placeholder="Your full name..">
+
+                <label class="labels" for="email">Email</label>
+                <input class="input-type" type="text" id="email"  name="email" placeholder="abcd@example.com">
+
+                <label class="labels" for="message">Message</label>
+            
+                <textarea class = "input-type-message" name="message" id="message" cols="30" rows="10" placeholder="Your message..."></textarea>
+
+                <input class="input-button" type="submit" value="Submit">
+
+
+
+            </form>
+           
+        </div>
 
 
 
