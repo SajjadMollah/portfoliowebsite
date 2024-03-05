@@ -322,9 +322,10 @@ opacity: 1;
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100vh;
+    height: fit-content;
     align-items: center;
     background-color: azure;
+
 
 
 
@@ -348,9 +349,9 @@ opacity: 1;
 .contact-container{
     display: flex;
     justify-content: center;
-    background-color:none;
-    width: 100%;
-    height: 100%;
+
+    width: fit-content;
+    height: fit-content;
 }
 .form-style{
 
